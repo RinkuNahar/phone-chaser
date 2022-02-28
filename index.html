@@ -19,7 +19,7 @@
 
     <!-- Search field -->
     <div class="input-group mb-3 w-50 mx-auto mt-4">
-        <input type="text"  id="search-area" class="form-control" placeholder="Search Your Phone" aria-label="Recipient's username" aria-describedby="button-addon">
+        <input type="text"  id="search-area"  class="form-control" placeholder="Search Your Phone" aria-label="Recipient's username" aria-describedby="button-addon">
         <button class="btn btn-outline-secondary" onclick="load()" type="button" id="button">Search</button>
       </div>
 
@@ -27,17 +27,23 @@
       <div class="container">
         <div class="row">
             <div class="col">
-         <div id="main"  class="row row-cols-1 row-cols-md-3 g-4">
-
-        
-         </div>
-
+          <div id="main"  class="row row-cols-1 row-cols-md-3 g-4">
+          </div>
             </div>
-            <div class="col">
-            right
+
+
+
+            <div class="col ">
+            <dib id="details"  >
+                <!-- error -->
+                    <div id="error" class="mx-auto w-50 bg-danger">not found</div>
+            </dib>
             </div>
           </div>
       </div>
+
+
+      
     <!-- Bootstrap Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Custom JS -->
