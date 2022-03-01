@@ -44,7 +44,7 @@ const load= () =>{
  }
 
 const displayDetails = id =>{
-    // console.log(id);
+    console.log(id);
     const div = document.getElementById('details');
     div.innerHTML = '';
     const myDiv = document.createElement('div');
@@ -57,6 +57,14 @@ const displayDetails = id =>{
         <p> Display Size : ${id.mainFeatures.displaySize}</p>
         <p> Memory : ${id.mainFeatures.memory}</p>
         <p> Storage : ${id.mainFeatures.storage}</p>
+        <p>Sensors : ${id.mainFeatures.sensors}</p>
+      <button class="btn">Others</button>
+      <p>Bluetooth : ${id.others.Bluetooth}</p>
+      <p>GPS : ${id.others.GPS}</p>
+      <p>NFC : ${id.others.NFC}</p>
+      <p>Radio : ${id.others.Radio}</p>
+      <p>USB : ${id.others.USB}</p>
+      <p>WLAN : ${id.others.WLAN}</p>
        `;
        div.appendChild(myDiv);
     }
@@ -69,13 +77,11 @@ const displayDetails = id =>{
         <p> Display Size : ${id.mainFeatures.displaySize}</p>
         <p> Memory : ${id.mainFeatures.memory}</p>
         <p> Storage : ${id.mainFeatures.storage}</p>
-       
+        <p>Sensors : ${id.mainFeatures.sensors}</p>
        `;
        div.appendChild(myDiv);
     }
  
 }
-const displaySensor = id =>{
-  console.log(id.mainFeatures.sensors);
 
-}
+
