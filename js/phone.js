@@ -33,12 +33,13 @@ const load= () =>{
        
         <button class="btn btn-outline-secondary mx-auto rounded" onclick="details('${phone.slug}')">Details</button>
        </div>
+     
         `
       main.appendChild(myDiv);
      };
-     
-  
+
  }
+ 
 
  const details = info =>{
   const url = `https://openapi.programming-hero.com/api/phone/${info}`
@@ -62,7 +63,7 @@ const displayDetails = id =>{
         <p><span> Display Size : </span>${id.mainFeatures.displaySize}</p>
         <p><span> Memory : </span>${id.mainFeatures.memory}</p>
         <p> <span>Storage : </span>${id.mainFeatures.storage}</p>
-        <p><span>Sensors : </span>${id.mainFeatures.sensors}</p>
+        <p class="sensor"><span>Sensors : </span>${id.mainFeatures.sensors}</p>
       <button class="btn details">Others Information</button>
       <p><span>Bluetooth : </span>${id.others.Bluetooth}</p>
       <p><span>GPS : </span>${id.others.GPS}</p>
@@ -93,6 +94,7 @@ const displayDetails = id =>{
       <p><span>USB : </span>${id.others.USB}</p>
       <p><span>WLAN :</span> ${id.others.WLAN}</p>
       </div>
+      
        `;
        div.appendChild(myDiv);
     }

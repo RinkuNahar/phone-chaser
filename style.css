@@ -26,7 +26,8 @@ body{
     margin-top: 100px;
 }
 .details-img{
-    margin-left: 100px;
+    margin-left: 180px;
+    margin-top: 20px;
 }
 .details-div{
     margin-top: 20px;
@@ -34,4 +35,49 @@ body{
 span{
     color: rgb(173, 36, 116);
     font-size: 20px;
+}
+
+
+
+.more{
+    display:none;
+}
+#more{
+    background-color: rgb(94, 94, 151);
+    color: aliceblue;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width:540px){
+    .details-img{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .second{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .details{
+        background-color:skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sensor{
+        font-size: 10px;
+    }
+    .span{
+       
+        font-size: 10px;
+    }
+    #main{
+        width: 300px;
+    }
+    .left{
+        order:2;
+    }
+    .right{
+        order:1;
+    }
 }
