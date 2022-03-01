@@ -80,7 +80,7 @@ span{
 
 @media (max-width:10240px) and (min-width:768px){
     .details-img{
-        margin-left: 0px;
+        margin-left: 180px;
         margin-top: 20px;
     }
     .second{
@@ -92,14 +92,12 @@ span{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .sensor{
-        font-size: 10px;
-    }
+    
     .span{
        
         font-size: 10px;
     }
     #main{
-        width: 500px;
+        width: 700px;
     }
 }
