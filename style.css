@@ -74,10 +74,32 @@ span{
     #main{
         width: 300px;
     }
-    .left{
-        order:2;
+}
+
+
+
+@media (max-width:10240px) and (min-width:768px){
+    .details-img{
+        margin-left: 0px;
+        margin-top: 20px;
     }
-    .right{
-        order:1;
+    .second{
+        margin-left: 0px;
+        margin-top: 100px;
+    }
+    .details{
+        background-color:skyblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sensor{
+        font-size: 10px;
+    }
+    .span{
+       
+        font-size: 10px;
+    }
+    #main{
+        width: 500px;
     }
 }
